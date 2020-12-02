@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse; 
 
 // Import Database Connection Class file 
-import code.DatabaseConnection; 
+//import code.DatabaseConnection; 
 
 // Servlet Name 
 @WebServlet("/addStudent") 

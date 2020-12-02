@@ -25,4 +25,23 @@
    <url-pattern>/login</url-pattern>
 </servlet-mapping>
 
+<servlet>
+   <servlet-name>welcome</servlet-name>
+   <servlet-class>welcome</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>welcome</servlet-name>
+   <url-pattern>/welcome</url-pattern>
+</servlet-mapping>
+
+<servlet>  
+        <servlet-name>getMarks</servlet-name>  
+        <servlet-class>getMarks</servlet-class>  
+ </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>getMarks</servlet-name>  
+        <url-pattern>/getMarks</url-pattern>  
+    </servlet-mapping>
 </web-app>
